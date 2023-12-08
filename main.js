@@ -1,50 +1,5 @@
 const xlsx = require("xlsx");
 
-// const data = [{
-//     name: "Bhuvanesh",
-//     age: "10",
-//     address: {
-//         street: "Shivdarshan",
-//         district: "Pune",
-//         state: "Maharashtra"
-//     },
-//     books: [
-//         {
-//             name: "Charles 1",
-//             ISBN: "11123-23422"
-//         },
-//         {
-//             name: "Charles 2",
-//             ISBN: "11123-10234"
-//         }
-//     ],
-//     games: [
-//         {
-//             category: "Cat 1",
-//             games: [
-//                 {
-//                     name: "GTA 5",
-//                     price: 5000
-//                 },
-//                 {
-//                     name: "RDR 2",
-//                     price: 1000
-//                 }
-//             ]
-//         },
-//         {
-//             category: "Cat 2",
-//             games: [
-//                 {
-//                     name: "CSGO",
-//                     price: 0
-//                 }
-//             ]
-//         }
-//     ]
-// }
-// ]
-
 const fs = require("fs");
 let data = null;
 async function readAndParseJson(path) {
